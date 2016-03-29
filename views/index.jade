@@ -1,0 +1,32 @@
+center
+    h1= title
+    
+ style.
+      #g {
+      border-radius: 25px;
+      height:20px;
+      
+      }
+       #wd{
+      border-radius: 25px;
+      background: pink;
+      width:200px;
+      height:50px;
+      width:200px;
+      }
+
+block content
+center
+   
+    form(name="add-estimation", method="post" action='/login')
+        div.input
+            span.label User Name:
+            input#g(type="text", name="username")
+
+        
+            span.label Password:
+            input#g(type="password",style='border-radious:50px;',  name="password")
+        br
+        br
+        div.actions
+            input#wd(type="submit", value="LOGIN")
